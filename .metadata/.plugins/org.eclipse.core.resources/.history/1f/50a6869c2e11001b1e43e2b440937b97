@@ -1,0 +1,36 @@
+package com.store.sincro.strategy.impl;
+
+import java.util.List;
+
+import com.store.dtos.DiscountDTO;
+import com.store.sincro.data.CartData;
+import com.store.sincro.data.DiscountData;
+import com.store.sincro.service.billing.BillingService;
+import com.store.sincro.service.billing.impl.BillingServiceImpl;
+import com.store.sincro.strategy.PriceAndDiscountStrategy;
+
+public class SincroPriceAndDiscountStrategy implements PriceAndDiscountStrategy {
+
+	private BillingService billingService;
+	
+	@Override
+	public List<DiscountData> getApplicableDiscounts(CartData cartData) {
+		List<DiscountDTO> list = billingService.getDiscounts(cartData.getCustomerType(), cartData.getTotalAmount());
+		return null;
+	}
+
+	@Override
+	public void calculate(CartData cartData) {
+		List<DiscountData> list = getApplicableDiscounts(cartData);
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public BillingService getBillingService() {
+		return new BillingServiceImpl(); // just for demo, with Spring this will be autowired to bean instance
+	}
+
+	public void setBillingService(BillingService billingService) {
+		this.billingService = new BillingServiceImpl(); // just for demo, with Spring this will be autowired to bean instance
+	}
+}

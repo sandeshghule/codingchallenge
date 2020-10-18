@@ -1,0 +1,5 @@
+package com.store.sincro.service.billing;
+
+public class BillingServiceImpl {
+
+}

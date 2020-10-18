@@ -1,0 +1,12 @@
+package com.store.sincro.utils;
+
+import java.util.Scanner;
+
+public class StoreUtils {
+
+	public static String takeUserInputAsString(final String msg)
+	{
+		Scanner sc = new Scanner(System.in);
+		String id = sc.next();
+	}
+}

@@ -1,0 +1,5 @@
+package com.store.sincro.populator;
+
+public abstract class AbstractPopulator {
+	public void populate(Object source, Object target);
+}

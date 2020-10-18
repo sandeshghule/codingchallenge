@@ -1,0 +1,21 @@
+package com.store.sincro.data;
+
+public class DiscountData {
+	private double amount;
+	private double discountPercentage;
+	
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	public double getDiscountPercentage() {
+		return discountPercentage;
+	}
+	public void setDiscountPercentage(double discountPercentage) {
+		this.discountPercentage = discountPercentage;
+	}
+	
+	
+}

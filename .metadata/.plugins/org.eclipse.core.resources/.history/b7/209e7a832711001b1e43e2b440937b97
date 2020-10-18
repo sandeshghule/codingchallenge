@@ -1,0 +1,7 @@
+package com.store.sincro.service.billing.impl;
+
+import com.store.sincro.service.billing.BillingService;
+
+public class BillingServiceImpl implements BillingService{
+	
+}

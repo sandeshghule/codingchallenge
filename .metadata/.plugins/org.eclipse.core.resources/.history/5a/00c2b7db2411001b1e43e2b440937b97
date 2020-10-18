@@ -1,0 +1,25 @@
+package com.store.sincro.strategy.impl;
+
+import java.util.List;
+
+import com.store.sincro.data.CartData;
+import com.store.sincro.data.DiscountData;
+import com.store.sincro.service.billing.BillingService;
+import com.store.sincro.strategy.PriceAndDiscountStrategy;
+
+public class SincroPriceAndDiscountStrategy implements PriceAndDiscountStrategy {
+
+	private BillingService billingService;
+	
+	@Override
+	public List<DiscountData> getApplicableDiscounts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void calculate(CartData cartData) {
+		// TODO Auto-generated method stub
+		
+	}
+}

@@ -1,0 +1,80 @@
+/**
+*  Sincro Platform
+*
+* Copyright (c) 2020-2021 Sincro
+* All rights reserved.
+* 
+**/
+package com.store.sincro.controller;
+
+import com.store.sincro.StoreConstants;
+import com.store.sincro.data.CartData;
+import com.store.sincro.facade.billing.CustomerBillingFacade;
+import com.store.sincro.facade.billing.impl.CustomerBillingFacadeImpl;
+import com.store.sincro.utils.StoreUtils;
+
+/* 
+* Controller class for Billing
+* The billing Controller implements an application that
+* handles customers shopping cart and prints  
+* the output on the screen.
+* 
+* @author  Sandesh Ghule
+* @version 1.0
+* @since   2020-18-10
+*/
+
+public class CustomerBillingController {
+	
+	private CustomerBillingFacade customerBillingFacade;
+	
+	public void enterBillingDetails()
+	{
+		System.out.println(StoreConstants.Messages.STORE_WELCOME_MSG);
+		
+		String customerType = StoreUtils.takeUserInputAsString(StoreConstants.Messages.CUSTOMER_TYPE_MSG);
+		String amountText = StoreUtils.takeUserInputAsString(StoreConstants.Messages.CUSTOMER_BILLING_AMOUNT_MSG);
+		
+		double billingAmount = 0.0;
+		
+		try
+		{
+			billingAmount = Double.parseDouble(amountText);
+			calculateCartTotal(customerType,billingAmount);
+		}
+		catch(NumberFormatException ex)
+		{
+			ex.printStackTrace();
+			System.out.println("Exception Occured="+ex.getMessage());
+			System.out.println("Invalid Amount value entered, Please run program again");
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+			System.out.println("Exception Occured="+ex.getMessage());
+			System.out.println("Error in Billing, Please run program again");
+		}
+	}
+
+	private void calculateCartTotal(final String customerType, double billingAmount) {
+		CartData cartData = new CartData();
+		cartData.setCustomerType(customerType);
+		cartData.setTotalAmount(billingAmount);
+		
+		getCustomerBillingFacade().calculateCart(cartData);
+		System.out.println("Amount After Discount="+cartData.getAmountAfterDiscount());
+	}
+
+	public CustomerBillingFacade getCustomerBillingFacade() {
+		return new CustomerBillingFacadeImpl();
+	}
+
+	public void setCustomerBillingFacade(CustomerBillingFacade customerBillingFacade) {
+		this.customerBillingFacade = new CustomerBillingFacadeImpl();
+	}
+	
+	public static void main(String[] args) {
+		CustomerBillingController controller = new CustomerBillingController();
+		controller.enterBillingDetails();
+	}
+}

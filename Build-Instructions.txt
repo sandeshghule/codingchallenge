@@ -1,0 +1,14 @@
+1. Three projects are created as part of soluation
+	a. retailstore
+	b. retailstorefacade
+	c. retailstoreservice
+
+2. The main class is "CustomerBillingController" in retail store project
+
+3. The junit test class for "CustomerBillingController" is "CustomerBillingControllerTest". Please run it as Junit Test in eclipse
+
+4. separate projects for facades and services like retailstorefacade & retailstoreservice are created to keep lose coupling 
+
+5. Remaining folders apart from mentioned in point #1 are auto generated in eclipse
+
+6. junit and hamcrest jars are added for junit execution 

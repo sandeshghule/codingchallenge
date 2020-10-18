@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>AnBx IDE</title>
+    <link>http://marketplace.eclipse.org/content/anbx-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/circle-cropped.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pmodesti/listings&quot; title=&quot;Paolo Modesti&quot;&gt;Paolo Modesti&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-10-16 09:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-11-28 19:15&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Security protocols are critical components for the construction of secure and dependable distributed applications, but their implementation is challenging and error prone. Therefore, tools for formal modelling and analysis of security protocols are essential to support software engineers in practice. However, despite having been available for many years, the adoption of formal methods tools outside the research community has been very limited. In fact, most practitioners find such applications too complex and incompatible with their work requirements.&lt;/p&gt;
+&lt;p&gt;This Integrated Development Environment for the design, verification and implementation of security protocols is aimed at lowering the adoption barrier of formal methods tools for security. In the spirit of Model Driven Development, the environment supports the user in the specification of a model using the simple and intuitive language &lt;em&gt;AnB&lt;/em&gt; (and its extension &lt;em&gt;AnBx&lt;/em&gt;). Moreover, it provides a push-button solution for the formal verification of the abstract and concrete models, and for the automatic generation of &lt;em&gt;Java&lt;/em&gt; implementation.&lt;/p&gt;
+&lt;p&gt;This Eclipse-based IDE leverages on existing languages and tools for the modelling and verification of security protocols, such as:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;AnBx Compiler and Code Generator&lt;/li&gt;
+&lt;li&gt;OFMC, model checker&lt;/li&gt;
+&lt;li&gt;ProVerif, cryptographic protocol verifier&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;This plugin requires Java 11 and XText Redistributable 2.14.0 or later.&lt;/p&gt;
+&lt;p&gt;External tools (AnBx compiler, OFMC and ProVerif) must be downloaded separately:&lt;br /&gt;
+packages for Windows, Linux and Mac are available from the &lt;a href=&quot;https://www.dais.unive.it/~modesti/anbx/ide/index.html&quot; rel=&quot;nofollow&quot;&gt;support site&lt;/a&gt; where you can also find the documentation.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 29 Nov 2017 00:15:06 +0000</pubDate>
+ <dc:creator>pmodesti</dc:creator>
+ <guid isPermaLink="false">3795176 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/anbx-ide#comments</comments>
+  </item>
+  <item>
+    <title>Eclipse Codewind tool for OpenAPI</title>
+    <link>http://marketplace.eclipse.org/content/eclipse-codewind-tool-openapi</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/codewind_blue_2000px_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-10-16 08:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22IBM%22&quot;&gt;IBM&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2019-06-28 15:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jkim/listings&quot; title=&quot;Joseph Kim&quot;&gt;Joseph Kim&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Eclipse Codewind tool for OpenAPI provides wizards that invoke the OpenAPI Generator to create API clients, server stubs, and HTML documentation from OpenAPI Specifications. The tools are integrated with and are customized to work with Codewind for Eclipse but they also work standalone with a base Eclipse IDE for Java EE Developers installation.&lt;/p&gt;
+&lt;p&gt;Codewind and the Codewind logo are trademarks of the Eclipse Foundation.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 28 Jun 2019 19:29:10 +0000</pubDate>
+ <dc:creator>jkim</dc:creator>
+ <guid isPermaLink="false">4697987 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/eclipse-codewind-tool-openapi#comments</comments>
+  </item>
+  <item>
+    <title>Aspose.Words Java (Maven) for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/asposewords-java-maven-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/aspose_logo_0_0_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2020-10-16 08:18&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Aspose%20Pty%20Ltd%22&quot;&gt;Aspose Pty Ltd&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2020-10-11 10:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/amarketplace/listings&quot; title=&quot;Aspose Marketplace&quot;&gt;Aspose Marketplace&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;This is new Plugin for Eclipse IDE by &lt;a href=&quot;http://aspose.com&quot; rel=&quot;nofollow&quot;&gt;Aspose&lt;/a&gt;. The Plugin intended for developers using Maven platform for Java developments and want to use &lt;a href=&quot;http://goo.gl/Eg359W&quot; rel=&quot;nofollow&quot;&gt;Aspose.Words for Java&lt;/a&gt; in their projects.
+&lt;p&gt;NOTE: &lt;a href=&quot;http://goo.gl/Eg359W&quot; rel=&quot;nofollow&quot;&gt;Aspose.Words for Java&lt;/a&gt; is Java API developed by &lt;a href=&quot;http://aspose.com&quot; rel=&quot;nofollow&quot;&gt;Aspose&lt;/a&gt; that offers easy Microsoft Word document creation and manipulation right from within Java Projects. For the API detailed features list check the &lt;a href=&quot;http://goo.gl/Eg359W&quot; rel=&quot;nofollow&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;The release contains the following features:&lt;/h2&gt;
+&lt;p&gt;Aspose.Words Maven Project (wizard)&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;By using this wizard plugin creates Maven project for using &lt;a href=&quot;http://goo.gl/Eg359W&quot; rel=&quot;nofollow&quot;&gt;Aspose.Words for Java&lt;/a&gt; from New -&amp;gt; Project -&amp;gt; Maven-&amp;gt; Aspose.Words Maven Project&lt;/li&gt;
+&lt;li&gt;The wizard will also give option for downloading latest available Code Examples for using the API.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;
+Aspose.Words Code Example (wizard)&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;By using this wizard plugin lets you copy the downloaded Code Examples into your project for using &lt;a href=&quot;http://goo.gl/Eg359W&quot; rel=&quot;nofollow&quot;&gt;Aspose.Words for Java&lt;/a&gt; from New -&amp;gt; Other -&amp;gt; Java -&amp;gt; Aspose.Words Code Example&lt;/li&gt;
+&lt;li&gt;The wizard will also look for and updates for newly available Code Examples from &lt;a href=&quot;https://goo.gl/Qx9Hp9&quot; rel=&quot;nofollow&quot;&gt;Aspose.Words for Java examples repository.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;NOTE: Selected Code Examples (category) source codes will be copied under &quot;com.aspose.words.examples&quot; package. Resources needed for running examples will be copied to the corresponding directory (package) within &quot;src/main/resources&quot;.&lt;/p&gt;
+&lt;p&gt;Other Features&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Supports Eclipse Mars.1 (4.5.1) and later&lt;/li&gt;
+&lt;li&gt;Compatible with Mac, Linux Flavors and Windows&lt;/li&gt;
+&lt;li&gt;Native IDE user experience&lt;/li&gt;
+&lt;li&gt;Open Source&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;Code Examples&lt;/h2&gt;
+&lt;p&gt;The Aspose.Words Code Example wizard currently integrates the following &lt;a href=&quot;http://www.aspose.com/java/word-component.aspx&quot; rel=&quot;nofollow&quot;&gt;Aspose.Words&lt;/a&gt; examples with the Eclipse IDE&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/quickstart&quot; rel=&quot;nofollow&quot;&gt;Quick Start&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Append Documents&lt;/li&gt;
+&lt;li&gt;Apply License&lt;/li&gt;
+&lt;li&gt;Find And Replace&lt;/li&gt;
+&lt;li&gt;Hello World&lt;/li&gt;
+&lt;li&gt;Load And Save To Disk&lt;/li&gt;
+&lt;li&gt;Load And Save To Stream&lt;/li&gt;
+&lt;li&gt;Simple MailMerge&lt;/li&gt;
+&lt;li&gt;Update Fields&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/loading_saving&quot; rel=&quot;nofollow&quot;&gt;Loading and Saving&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Check Format&lt;/li&gt;
+&lt;li&gt;Image To PDF&lt;/li&gt;
+&lt;li&gt;Load Text&lt;/li&gt;
+&lt;li&gt;Page Splitter&lt;/li&gt;
+&lt;li&gt;Split Into HTML Pages&lt;/li&gt;
+&lt;li&gt;Word 2 Help&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents&quot; rel=&quot;nofollow&quot;&gt;Programming Documents&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/bookmarks&quot; rel=&quot;nofollow&quot;&gt;Bookmarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/comments&quot; rel=&quot;nofollow&quot;&gt;Comments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/document&quot; rel=&quot;nofollow&quot;&gt;Document&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/fields&quot; rel=&quot;nofollow&quot;&gt;Fields&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/find_replace&quot; rel=&quot;nofollow&quot;&gt;Find &amp;amp; Replace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/images&quot; rel=&quot;nofollow&quot;&gt;Images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/joining_appending&quot; rel=&quot;nofollow&quot;&gt;Joining Appending&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/styles&quot; rel=&quot;nofollow&quot;&gt;Styles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/programming_documents/tables&quot; rel=&quot;nofollow&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/mail_merge&quot; rel=&quot;nofollow&quot;&gt;Mail Merge&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Apply Custom Logic To Empty Regions&lt;/li&gt;
+&lt;li&gt;MailMerge Form Fields&lt;/li&gt;
+&lt;li&gt;Multiple Docs In MailMerge&lt;/li&gt;
+&lt;li&gt;MustacheTemplate Syntax&lt;/li&gt;
+&lt;li&gt;Nested MailMerge&lt;/li&gt;
+&lt;li&gt;Remove Empty Regions&lt;/li&gt;
+&lt;li&gt;XML MailMerge&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/rendering_printing&quot; rel=&quot;nofollow&quot;&gt;Rendering and Printing&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Document Preview And Print.&lt;/li&gt;
+&lt;li&gt;Print Preview Dialog&lt;/li&gt;
+&lt;li&gt;Print Preview Dialog&lt;/li&gt;
+&lt;li&gt;Render Shapes&lt;/li&gt;
+&lt;li&gt;Save As Multipage TIFF&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/asposewords/Aspose_Words_Java/tree/master/Examples/src/main/java/com/aspose/words/examples/viewers_visualizers/document_explorer&quot; rel=&quot;nofollow&quot;&gt;Document Explorer (Gui Based)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+ &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sun, 11 Oct 2020 14:39:37 +0000</pubDate>
+ <dc:creator>amarketplace</dc:creator>
+ <guid isPermaLink="false">5258784 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/asposewords-java-maven-eclipse#comments</comments>
+  </item>
+  <item>
+    <title>Bndtools - The OSGi Development Tool</title>
+    <link>http://marketplace.eclipse.org/content/bndtools-osgi-development-tool</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/bndtools-logo-text-110x80_0.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-10-15 15:13&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bndtools%22&quot;&gt;Bndtools&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2010-05-18 23:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/nbartlett/listings&quot; title=&quot;Neil Bartlett&quot;&gt;Neil Bartlett&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;Bndtools: the Development Environment for OSGi Bundles and Applications
+&lt;h2&gt;What is Bndtools?&lt;/h2&gt;
+&lt;p&gt;Bndtools is an Eclipse based development environment that significantly simplifies the development of OSGi Bundles and application. It provides all the features one can expect from a popular IDE. On top these formidable shoulders it adds thousands of functions to simplify the development of OSGi and help create more resilient bundles. For this, it is based on bnd, a library that is used in the majority of OSGi builds to make the bundles more robust. Since bnd is used by the OSGi Alliance to build some of the reference implementations and all test suites, it is guaranteed to support every latest OSGi feature and beyond.&lt;/p&gt;
+&lt;h2&gt;Coding in Bndtools&lt;/h2&gt;
+&lt;p&gt;Coding in Bndtools is highly interactive. Often you code bundles in a life environment. Any changes you make in the workspace are immediately build into bundles and then deployed to active framework that is either on your local machine or remotely. Sometimes you will forget that you have not restarted the framework for days or that you test code unnecessarily on a remote machine.&lt;/p&gt;
+&lt;p&gt;Related projects are grouped in a workspace. This simplifies the development of cohesive components by sharing information without forcing that information to become public. I.e. a workspace is a module that consists of bundles. In Bndtools you don’t write a Manifest file, you write a bnd file. This is a property file that supports all kinds of conveniences over the Manifest writing like they do in PDE. You can use wildcards when applicable and a powerful macro language makes it very easy to only define facts in one place to avoid redundant information. It is also possible to create manifest headers through annotations. For all important headers there are very useful defaults like for example the Bundle Symbolic Name (which is the project name). For most bundle projects, the actual information in the bnd file is quite small and does not change often.&lt;/p&gt;
+&lt;p&gt;The state of the art of OSGi is to use declarative services with their standardized annotations. Bndtools has wizards for DS components and reports and misuse of the annotations at the place where they happen. Since Bndtools always builds after any change, the feedback is direct.&lt;/p&gt;
+&lt;p&gt;There are several editors provided with Bndtools. The bnd editor provides completion of instructions and tooltips on headers and instructions. It is directly integrated with the error reporting. The JAR editor shows the contents of a JAR and can print an overview of the OSGi relevant details of a JAR.&lt;/p&gt;
+&lt;p&gt;Bndtools has a flexible model for Workspace templates and Project templates. Workspace templates can come from a remote repository, for example from your organization. A wizard allows a workspace template to update an existing workspace or create a new workspace. The project templates can come from repositories and use a powerful templating language (Moustache). This makes it easy to add organization specific project templates.&lt;/p&gt;
+&lt;h2&gt;Versioning Bndtools&lt;/h2&gt;
+&lt;p&gt;In a component system versioning is unavoidable, systems that do not version their packages will be very hard to evolve over time. Bndtools supports semantic package versions using the OSGi annotations for package versions and consumer/producer types in the package folder. By placing all the information in the package folder, close to where the changes happen, makes it easy to maintain proper versions. When the manifest is calculated by bnd all this information is taken into account, verified, and then used to generate the OSGi headers using OSGi’s definition of _semantic versioning_. With Bndtools, package versions are natural, hardly require work, and mistakes are caught before they percolate through the system. If you violate the rules of semantic versioning, for example you add a method to an interface without bumping the version, then Bndtools can tell you that you just broke backward compatibility. If you work with other people then you have to be careful when you change API! Even experienced users tend to forget in their rush to pay attention to this backward compatibility. Fortunately, Bndtools can continuously check your new bundle against the previously released version. If bnd detects any incompatible changes (without the appropriate version change) then it will balk and point out where to fix it: either the version or the line that caused the incompatibility. This alone could be a reason to switch to Bndtools.&lt;/p&gt;
+&lt;h2&gt;Build Support in Bndtools&lt;/h2&gt;
+&lt;p&gt;Bndtools is the user interface on top of bnd, where bnd is the headless build library that provides a build model. This library is used in Gradle, Maven, Ant, SBT, and other build tools. Over time it has been expanded with lots of functions to make builds easier.&lt;/p&gt;
+&lt;p&gt;First, bnd is a pull model. Instead of taking the contents of a project bnd makes you define what packages are part of the bundle. These packages can come from your project but also from other projects or other JARs. This provides a lot of leeway in designing the packaging of a bundle. You can also specify what resources should be included and at what path. Overall the bnd file has much more flexibility than most other build environments to package a bundle.&lt;/p&gt;
+&lt;p&gt;The bnd files can use a very powerful macro language. The macros can be used to define facts in one place and use it in different places. However, built in macros provide access to the current operation like the actual exported packages, the imports, the time. You can also access the file system or OS commands. For example, the macros can be used to add a number of JAR files in a local directory to the Bundle-ClassPath.&lt;/p&gt;
+&lt;p&gt;Dependencies in bnd come from repositories. In Bndtools the repositories can be viewed and edited. Currently, bnd supports repositories for OSGi XML files with Capabilities &amp;amp; Requirements, Maven, simple file repositories, and others. It is quite easy to add additional repositories to bnd.&lt;/p&gt;
+&lt;p&gt;Bndtools provides extensive support to collaborate with maven projects. Bundles can be created with a POM file inside in the same way Maven does. The contents of this POM is derived from the manifest headers. With the Maven Bnd Repository that is included there is full maven repository support. It integrates with Nexus, Artifactory, and the local machine based repository. It supports snapshots and releases. Bndtools dependencies can come from Maven repositories and can be released to them as well. Try it out, in contrast to m2e Bndtools is much more interactive.&lt;/p&gt;
+&lt;h2&gt;Assembly with Bndtools&lt;/h2&gt;
+&lt;p&gt;OSGi is a reusable component system. One stage in the development of an application is therefore to &lt;em&gt;assemble&lt;/em&gt; a set of components and configure them. Bndtools supports assembly with a resolver that can create the list of bundles needed to satisfy a set of initial requirements. Instead of discovering more and more dependencies by dragging in a new dependency, in Bndtools you can just drag the XRay bundle to the initial requirements list and then the resolver will include Web Console, an Http Server, DS, and all other required bundles. This tool can be an enormous time saver because it can be really hard to create a consistent set of bundles that actually works when deployed.&lt;/p&gt;
+&lt;h2&gt;Debugging in Bndtools&lt;/h2&gt;
+&lt;p&gt;In Bndtools when you debug or launch an application your code sees an environment that is identical to the runtime of the application when it runs standalone, unlike PDE. This avoids the Heisenbugs that only occur in runtime. It also has the effect that your code becomes much more robust because any errors in handling the OSGi dynamics will be found quickly because you can develop so interactively. Bndtools uses the hot deployment mechanisms of OSGi to deploy updated bundles from the workspace in the framework seamlessly. Bndtools has almost the feeling of a dynamic language with REPL (Read, Eval, Print, Loop). For people used to PDE or even normal Java development this is jaw-dropping. Try it, developing bundles is fun with Bndtools. Debugging applications can happen locally on your machine but it can also happen on a remote, potentially much smaller like a Raspberry Pi, machine. Both local and remote are completely interactive.&lt;/p&gt;
+&lt;h2&gt;Verification in Bndtools&lt;/h2&gt;
+&lt;p&gt;Every Bundle made with bnd is verified as much as possible. Many errors are directly reported in the source code at the proper place. The bnd library is continuously expanded to diagnose problems and warn about them.&lt;/p&gt;
+&lt;h2&gt;Testing with Bndtools&lt;/h2&gt;
+&lt;p&gt;Bndtools supports proper JUnit testing with the standard Eclipse GUI. However, bnd also supports testing in a life OSGi framework. This bnd test framework is fully integrated with the Eclipse JUnit GUI; it is hard to see the difference.&lt;/p&gt;
+&lt;h2&gt;Continuous Integration with Bndtools&lt;/h2&gt;
+&lt;p&gt;Any Bndtools workspace can also be built with Gradle because bnd also provides an excellent Gradle plugin that guarantees the same output that Eclipse generates from the same bnd files. This Gradle plugin can also be used standalone for classic Gradle projects.&lt;/p&gt;
+&lt;h2&gt;Getting started with Bndtools via OSGi enRoute&lt;/h2&gt;
+&lt;p&gt;The OSGi Alliance has invested in making it easier to get started with OSGi. Work done in extending Bndtools/bnd is one part of this effort. You can find documentation, tutorials, examples, application notes and a forum on the &lt;a href=&quot;https://enroute.osgi.org&quot; rel=&quot;nofollow&quot;&gt;OSGi enRoute site&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Contributing to Bndtools&lt;/h2&gt;
+&lt;p&gt;Bndtools and bnd are fully build with Bndtools. You can find the Git repositories on &lt;a href=&quot;https://github.com/bndtools/bnd&quot; rel=&quot;nofollow&quot;&gt;Github&lt;/a&gt;. Any feedback can be reported there and we welcome PRs.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 19 May 2010 03:11:17 +0000</pubDate>
+ <dc:creator>nbartlett</dc:creator>
+ <guid isPermaLink="false">1220 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/bndtools-osgi-development-tool#comments</comments>
+  </item>
+  <item>
+    <title>Groovy Development Tools</title>
+    <link>http://marketplace.eclipse.org/content/groovy-development-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-10-15 11:48&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven (m2e) support for the &lt;a href=&quot;http://groovy-lang.org&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
+&lt;p&gt;The GDT requires the &lt;a href=&quot;https://marketplace.eclipse.org/content/eclipse-java-development-tools-0&quot; rel=&quot;nofollow&quot;&gt;Eclipse Java Development Tools&lt;/a&gt; (JDT) as it builds upon Java/JVM support, including Java interoperability (bi-directional dependencies via joint compilation). If your Eclipse flavor does not include JDT, you must install it first.&lt;/p&gt;
+&lt;p&gt;GDT does not provide any direct support for &lt;a href=&quot;http://grails.org&quot; rel=&quot;nofollow&quot;&gt;Grails&lt;/a&gt;. If you want Grails tooling, then please consider &lt;a href=&quot;https://marketplace.eclipse.org/content/groovygrails-tool-suite-ggts-eclipse&quot; rel=&quot;nofollow&quot;&gt;Groovy-Grails Tools Suite&lt;/a&gt; or &lt;a href=&quot;https://github.com/spring-projects/grails-ide&quot; rel=&quot;nofollow&quot;&gt;spring-projects/grails-ide&lt;/a&gt; for your Grails projects.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 04 Jul 2012 17:05:41 +0000</pubDate>
+ <dc:creator>aclement</dc:creator>
+ <guid isPermaLink="false">321859 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/groovy-development-tools#comments</comments>
+  </item>
+  <item>
+    <title>jSparrow - Automatic Java Refactoring</title>
+    <link>http://marketplace.eclipse.org/content/jsparrow-automatic-java-refactoring</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jSparrow_Fluegel_110x80.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-10-15 08:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%22&quot;&gt;Splendit IT-Consulting GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;FOR INSTALLING JSPARROW USE THE EXTERNAL INSTALL BUTTON!!!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jSparrow &lt;/strong&gt;detects and automatically replaces bugs and code smells in Java sources with a rule-based approach. jSparrow &lt;strong&gt;improves &lt;/strong&gt;your Java source code and transforms it to Java 8/9/10 user-guided and safe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Refactor your Java code. Improve code quality. Apply the latest Java features. All automatically.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+jSparrow has now a set of&lt;strong&gt; 86 rules&lt;/strong&gt;, grouped into seven categories, which are designed for applying coding conventions, removing code smells, standardize logging, improving readability, and modernizing your Java codebase. Thus saving maintenance time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Removal &lt;/strong&gt;of potential &lt;strong&gt;bugs and code smells&lt;/strong&gt; is one of the main purposes of jSparrow. jSparrow is very efficient in disposing of these kinds of threats with its rules. You can group the profiles into individual &lt;strong&gt;rule profiles&lt;/strong&gt;, which also can be &lt;strong&gt;exported &lt;/strong&gt;and &lt;strong&gt;imported &lt;/strong&gt;to share them within your development team.&lt;/p&gt;
+&lt;p&gt;Staying up to date with the latest Java standards is normally requiring days of manual software maintenance work. &lt;strong&gt;jSparrow upgrades &lt;/strong&gt;old code-artifacts to new state-of-the-art programming practices. The usage of jSparrow´s &lt;strong&gt;full version&lt;/strong&gt; allows you to save a lot of valuable time while offering the option of &lt;strong&gt;automatically upgrading&lt;/strong&gt; to the latest version of Java within minutes in a safe way.&lt;/p&gt;
+&lt;p&gt;You can then decide if you want to use the jSparrow Free version, as usual, or the new features of jSparrow Starter for automatic refactoring. With jSparrow Starter you will be able to apply 15 rules free of charge. After a short registration, you will get a license key, allowing you to apply the rules on your projects.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Don´t lose time with tedious and repetitive work - let jSparrow do it!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Documentation: &lt;a href=&quot;https://jsparrow.github.io/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Rule description: &lt;a href=&quot;https://jsparrow.github.io/rules/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/rules/&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Compare our versions: &lt;a href=&quot;https://jsparrow.eu/get-jsparrow/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.eu/get-jsparrow/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LATEST VERSION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow Release 3.22.0&lt;/p&gt;
+&lt;p&gt;jSparrow Maven PlugIn 2.19.0&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OUR RELEASE POLICY IS AS FOLLOWS:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monthly releases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every 3rd Thursday we will release at least one new rule.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weekly Bugfix &lt;/strong&gt;releases&lt;/p&gt;
+&lt;p&gt;Bugfixes will be released each Thursday&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix Releases &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hotfix Releases can be deployed any time (hopefully not necessary)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next Release: &lt;/strong&gt;Thursday 2020-11-19&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+ <dc:creator>mprehofer</dc:creator>
+ <guid isPermaLink="false">3503691 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jsparrow-automatic-java-refactoring#comments</comments>
+  </item>
+  <item>
+    <title>Red Hat CodeReady Studio Integration Stack</title>
+    <link>http://marketplace.eclipse.org/content/red-hat-codeready-studio-integration-stack</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/128_jbds_icon_0.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-10-15 06:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Red%20Hat%2C%20Inc.%22&quot;&gt;Red Hat, Inc.&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2016-05-06 13:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jtools/listings&quot; title=&quot;JBoss Tools&quot;&gt;JBoss Tools&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Red Hat CodeReady Studio Integration Stack includes &lt;a href=&quot;https://marketplace.eclipse.org/content/red-hat-jboss-developer-studio&quot; rel=&quot;nofollow&quot;&gt;Red Hat CodeReady Studio&lt;/a&gt; plus:  BRMS Tooling - Tools related to business processes and rules development - includes support for BPEL, BPMN2, jBPM, KIE and Drools.  For a quick overview, see &lt;a href=&quot;https://access.redhat.com/documentation/en/red-hat-codeready-studio-integration-stack&quot; rel=&quot;nofollow&quot;&gt;Integration Stack documentation&lt;/a&gt; . See also: &lt;a href=&quot;https://developers.redhat.com/products/codeready-studio/overview/&quot; rel=&quot;nofollow&quot;&gt;https://developers.redhat.com/products/codeready-studio/overview/&lt;/a&gt; NOTE: If you encounter problems, please open an &lt;a href=&quot;https://issues.redhat.com.org/jira/browse/JBTIS&quot; rel=&quot;nofollow&quot;&gt;issue&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 06 May 2016 17:32:51 +0000</pubDate>
+ <dc:creator>jtools</dc:creator>
+ <guid isPermaLink="false">2872800 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/red-hat-codeready-studio-integration-stack#comments</comments>
+  </item>
+  <item>
+    <title>aiXcoder Code Completer &amp; Code Search Engine</title>
+    <link>http://marketplace.eclipse.org/content/aixcoder-code-completer-code-search-engine</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_s.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-10-15 04:31&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22aiXcoder%22&quot;&gt;aiXcoder&lt;/a&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2019-12-31 06:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/yhaoamy/listings&quot; title=&quot;Yiyang Hao&quot;&gt;Yiyang Hao&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;AiXcoder Code Completer &amp;amp; Code Search Engine for Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AiXcoder is a powerful code completer &amp;amp; code search engine based on state-of-the-art deep learning technology. It has the potential of recommending you a full line of code, which will help you code faster. AiXcoder also provides a code search engine to help you search for API use cases on GitHub.&lt;/p&gt;
+&lt;p&gt;Update site: &lt;a href=&quot;https://image.aixcoder.com/eclipse-update-site/&quot; rel=&quot;nofollow&quot;&gt;https://image.aixcoder.com/eclipse-update-site/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you are having trouble installing aiXcoder&lt;/strong&gt; via the Eclipse Maketplace or update site, you can download the latest jar file at &lt;a href=&quot;https://github.com/aixcoder-plugin/eclipse-update-site/tree/master/plugins&quot; rel=&quot;nofollow&quot;&gt;https://github.com/aixcoder-plugin/eclipse-update-site/tree/master/plugins&lt;/a&gt; and place the jar file inside the &quot;dropins&quot; folder at the Eclipse&#039;s installation folder.&lt;/p&gt;
+&lt;p&gt;AiXcoder is an code suggestions generator using the latest AI technologies. Our model is trained on over 1 TB of open source code and served from your own computer.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;For now aiXcoder only supports Java.&lt;/p&gt;
+&lt;p&gt;Currently it runs on 64-bit Windows/Mac OS and Linux.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Eclipse Kepler+&lt;/p&gt;
+&lt;p&gt;JRE 1.8+&lt;/p&gt;
+&lt;p&gt;Around 500 MB of free memory.&lt;/p&gt;
+&lt;p&gt;More than 300 MB of free disk space in your home directory.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Only support Java for now. More languages (C++/Python/JavaScript/TypeScript/Go/Php) on the way...&lt;/p&gt;
+&lt;p&gt;Completely works offline. Your code is safe in your hand.&lt;/p&gt;
+&lt;p&gt;Long completion result with length up to a full line.&lt;/p&gt;
+&lt;p&gt;Rearrange completion items in a likelyhood probability descending order.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Troubleshooting&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The local server is downloaded into &amp;lt;home&amp;gt;/aiXcoder/installer/localserver/current/server/. Removing the folder and then restart VSCode will force this plugin to re-download the service.&lt;/p&gt;
+&lt;p&gt;The service is started as two processes with name &quot;aix-node(.exe)&quot;, you can safely kill them at any time. The plugin will automatically launch the service upon a completion event if not running.&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 31 Dec 2019 11:24:15 +0000</pubDate>
+ <dc:creator>yhaoamy</dc:creator>
+ <guid isPermaLink="false">4936712 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/aixcoder-code-completer-code-search-engine#comments</comments>
+  </item>
+  <item>
+    <title>Planet Themes</title>
+    <link>http://marketplace.eclipse.org/content/planet-themes</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/planet.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pybigourdan/listings&quot; title=&quot;Pierre-Yves Bigourdan&quot;&gt;Pierre-Yves Bigourdan&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-10-15 02:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2020-07-16 15:47&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;Dark and light themes for Eclipse 2020-06 or more recent, inspired by planets of the Solar System!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Three themes are currently available:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Moon: familiar-looking but not an actual planet. Light-grey, by and large sticks to Eclipse&#039;s classic color scheme.&lt;/li&gt;
+&lt;li&gt;Neptune: dark blue theme with some red reflections from the distant sun.&lt;/li&gt;
+&lt;li&gt;Pluto: not much light reaches this distant dwarf planet, leading to a resolutely dark theme. The presence of purple has yet to be explained by astronomers.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;A few words to summarise the planetary ambitions:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;compact: few borders, less visual artifacts, hidden buttons and flat scrollbars on Windows.&lt;/li&gt;
+&lt;li&gt;readable: easy on the eyes with low glare, balanced contrasts and an integrated editor font with programming ligatures.&lt;/li&gt;
+&lt;li&gt;outstanding: not a revolution, but hopefully a nice twist to the traditional Eclipse look and feel.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;The Planet Themes plugin is free and open-source, feedback is welcome! You can also support the project by starring it on the marketplace and on GitHub: &lt;a href=&quot;https://github.com/PyvesB/eclipse-planet-themes&quot; rel=&quot;nofollow&quot;&gt;https://github.com/PyvesB/eclipse-planet-themes&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 16 Jul 2020 19:47:50 +0000</pubDate>
+ <dc:creator>pybigourdan</dc:creator>
+ <guid isPermaLink="false">5176732 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/planet-themes#comments</comments>
+  </item>
+  <item>
+    <title>table debug</title>
+    <link>http://marketplace.eclipse.org/content/table-debug</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jcuipuy/listings&quot; title=&quot;jian cui&quot;&gt;jian cui&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2020-10-14 08:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2020-09-29 04:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;
+&lt;/p&gt;&lt;p&gt;@[TOC](eclipse debug matrix, array, tree plugin)&lt;/p&gt;
+Preface
+&lt;p&gt;Recently, there is a need to use eclipse to debug the java matrix, and see that the view as array of pycharm is very useful, as shown below.&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;But I did not find a similar eclipse plug-in on the Internet, so I wrote one by myself and shared it with everyone&lt;/p&gt;
+Show results
+&lt;ol&gt;&lt;li&gt;Eclipse first debug the java program to reach the specified breakpoint, as follows:&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Select the variable in Variables View and click&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;List display effect&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Matrix display effect&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Tree view display&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Map display effect&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The java version of the DataFrame display effect&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+Custom java type settings
+&lt;ol&gt;&lt;li&gt;The plug-in can automatically identify arrays, matrices, and java types that implement java.lang.Iterable and java.util.Iterator. And convert it into a list.&lt;/li&gt;
+&lt;li&gt;For user-defined java types, it is necessary to provide methods or member variables whose return value is the java type included in 1, as shown in the following figure:&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;The member variable can be written directly, and the method format is: method name () return value type. All types must have package name&lt;/li&gt;
+&lt;li&gt;If Column&#039;s name and Line&#039;s name are null, it means that 0,1,2,3,4......index values ​​are generated by default. If you need to customize, such as joinery.DataFrame row names and column names are obtained through the index method and the columns method, the configuration rules are as 3.&lt;/li&gt;
+&lt;li&gt;When displaying variables or objects in a tree diagram, there is no need to configure Column&#039;s name and Line&#039;s name&lt;/li&gt;
+&lt;/ol&gt;
+Directions for improvement
+&lt;ol&gt;&lt;li&gt;Slow when displaying large matrices&lt;/li&gt;
+&lt;li&gt;No version adaptation, the eclipse version I developed is Mars.2 (4.5.2)&lt;/li&gt;
+&lt;li&gt;I don&#039;t know how the regular api interface recognizes the VariablesView window of debug and gets the current options. Now the method is not recommended, the code is shown in the figure:&lt;br /&gt;&lt;br /&gt;
+Source code
+&lt;p&gt;Hard to force java programmers. I stayed up late at night to write by myself, the code is more casual. Share it with everyone, I hope you can help maintain it&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+document.write(&#039;&#039;)document.addEventListener(&#039;LiveReloadDisconnect&#039;, function() { setTimeout(function() { window.location.reload(); }, 500); })&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 29 Sep 2020 08:29:05 +0000</pubDate>
+ <dc:creator>jcuipuy</dc:creator>
+ <guid isPermaLink="false">5246099 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/table-debug#comments</comments>
+  </item>
+  </channel>
+</rss>

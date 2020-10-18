@@ -1,0 +1,48 @@
+/**
+*  Sincro Platform
+*
+* Copyright (c) 2020-2021 Sincro
+* All rights reserved.
+* 
+**/
+package com.store.sincro.controller;
+
+import java.util.Scanner;
+
+/* 
+* Controller class for Billing
+* The billing Controller implements an application that
+* handles customers shopping cart and prints  
+* the output on the screen.
+* 
+* @author  Sandesh Ghule
+* @version 1.0
+* @since   2020-18-10
+*/
+public class CustomerBillingController {
+
+	public void enterBillingDetails()
+	{
+		System.out.println("### Welcome To Retail Store ###");
+		System.out.println("Please enter customer id=");
+		
+		Scanner sc = new Scanner(System.in);
+		String id = sc.next();
+		
+		System.out.println("Please enter Billing Amount=");
+		String amountText = sc.next();
+		
+		double amountVal = 0.0;
+		
+		try
+		{
+			amountVal = Double.parseDouble(amountText);
+		}
+		catch(NumberFormatException ex)
+		{
+			System.out.println("Invalid Amount value entered, Please run program again");
+		}
+		
+	
+	}
+}

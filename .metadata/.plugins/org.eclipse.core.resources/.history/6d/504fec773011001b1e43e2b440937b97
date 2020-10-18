@@ -1,0 +1,5 @@
+package com.store.sincro.populator;
+
+public interface Populator {
+	public void populate(final SOURCE source, final TARGET target);
+}

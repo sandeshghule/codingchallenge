@@ -1,0 +1,27 @@
+package com.store.sincro.tests;
+
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.store.sincro.controller.CustomerBillingController;
+
+@Test
+class CustomerBillingControllerTest {
+
+	CustomerBillingController customerBillingController = null;
+	
+    @Before		
+    public void m2() {					
+    	customerBillingController = new CustomerBillingController();
+    }	
+    
+	@Test
+	void test1() throws Exception {
+		double cartTotal = customerBillingController.calculateCartTotal("REGULAR", 5000D);
+		Assert.assertSame(5000D, 5000D);
+	}
+
+}

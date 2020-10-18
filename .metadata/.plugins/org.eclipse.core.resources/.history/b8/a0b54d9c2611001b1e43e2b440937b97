@@ -1,0 +1,7 @@
+package com.store.sincro.service.billing;
+
+public interface BillingService {
+
+	double getDiscount(final String type, final Double amount);
+
+}

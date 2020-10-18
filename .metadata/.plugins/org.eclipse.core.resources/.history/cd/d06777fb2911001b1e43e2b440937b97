@@ -1,0 +1,41 @@
+package com.store.sincro.service.billing.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.store.dtos.DiscountDTO;
+import com.store.sincro.service.billing.BillingService;
+
+public class BillingServiceImpl implements BillingService{
+
+	@Override
+	public List<DiscountDTO> getDiscounts(String type, Double cartAmount) {
+		List<DiscountDTO> list = new ArrayList();
+		if("R".equalsIgnoreCase(type) || "REGULAR".equalsIgnoreCase(type))
+		{
+			if(cartAmount >= 0 && cartAmount <= 5000)
+			{
+				DiscountDTO discountDTO = new DiscountDTO();
+				
+				populateDiscountDTO(discountDTO,cartAmount,0D,5000D,0D);
+				discountDTO.setAmountToBeConsidered(5000);
+				discountDTO.setDiscountPercentage(0);
+				list.add(discountDTO);
+			}
+		}
+		return list;
+	}
+
+	private void populateDiscountDTO(DiscountDTO discountDTO, Double cartAmount, Double startAmt, Double endAmt, Double percent) {
+		
+		double amountToBeConsidered = endAmt - startAmt;
+		double amountAfterDiscount = 0;
+		
+		if(amountToBeConsidered > 0 && percent > 0)
+		{
+			amountAfterDiscount = amountToBeConsidered * 
+		}
+		
+	}
+	
+}

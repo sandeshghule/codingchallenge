@@ -1,0 +1,54 @@
+package com.store.sincro.tests;
+
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import com.store.sincro.controller.CustomerBillingController;
+
+public class CustomerBillingControllerTest {
+	
+	CustomerBillingController customerBillingController = null;
+	
+	public CustomerBillingControllerTest()
+	{
+		
+	}
+	
+    @Before		
+    public void before() {					
+    	customerBillingController = new CustomerBillingController();
+    }	
+    
+	@Test
+	public void test1() throws Exception {
+		double cartTotal = customerBillingController.calculateCartTotal("REGULAR", 5000);
+		assertEquals(5000, cartTotal,0);
+	}
+	
+	@Test
+	public void test2() throws Exception {
+		double cartTotal = customerBillingController.calculateCartTotal("REGULAR", 10000);
+		assertEquals(9500, cartTotal,0);
+	}
+	
+	@Test
+	public void test3() throws Exception {
+		double cartTotal = customerBillingController.calculateCartTotal("REGULAR", 15000);
+		assertEquals(13500, cartTotal,0);
+	}
+	
+	@Test
+	public void test4() throws Exception {
+		double cartTotal = customerBillingController.calculateCartTotal("REGULAR", 0);
+		assertEquals(0, cartTotal,0);
+	}
+	
+	@Test(expected=Exception.class)
+	public void test5() throws Exception {
+		double cartTotal = customerBillingController.calculateCartTotal("REGULAR", -12);
+	}
+}

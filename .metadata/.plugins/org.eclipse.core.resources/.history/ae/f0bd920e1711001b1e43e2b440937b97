@@ -1,0 +1,14 @@
+package com.store.sincro.facade.billing.impl;
+
+import com.store.sincro.facade.billing.CustomerBillingFacade;
+
+public class CustomerBillingFacadeImpl implements CustomerBillingFacade {
+
+	@Override
+	public void customerBill(String type, Double amount) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

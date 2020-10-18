@@ -1,0 +1,6 @@
+package com.store.sincro.facade.billing;
+
+public interface CustomerBillingFacade {
+	public double customerBill(final String type,final Double amount);
+}
+	

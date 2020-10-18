@@ -1,0 +1,9 @@
+package com.store.sincro.strategy.impl;
+
+import com.store.sincro.strategy.PriceAndDiscountStrategy;
+
+public class SincroPriceAndDiscountStrategy implements PriceAndDiscountStrategy {
+	
+	
+
+}

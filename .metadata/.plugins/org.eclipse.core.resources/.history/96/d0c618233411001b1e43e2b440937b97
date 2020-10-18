@@ -1,0 +1,75 @@
+package com.store.sincro.strategy.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.store.dtos.DiscountDTO;
+import com.store.sincro.data.CartData;
+import com.store.sincro.data.DiscountData;
+import com.store.sincro.populator.AbstractPopulator;
+import com.store.sincro.populator.impl.CommonDiscountPopulator;
+import com.store.sincro.service.billing.BillingService;
+import com.store.sincro.service.billing.impl.BillingServiceImpl;
+import com.store.sincro.strategy.PriceAndDiscountStrategy;
+
+public class SincroPriceAndDiscountStrategy implements PriceAndDiscountStrategy {
+
+	private BillingService billingService;
+	
+	private AbstractPopulator discountPopulator;
+	
+	
+	@Override
+	public List<DiscountData> getApplicableDiscounts(CartData cartData) {
+		List<DiscountDTO> list = billingService.getDiscounts(cartData.getCustomerType(), cartData.getTotalAmount());
+		List<DiscountData> discountList = new ArrayList<DiscountData>();
+		if(null != list)
+		{
+			for (DiscountDTO discountDTO : list) {
+				DiscountData discountData = new DiscountData();
+				discountPopulator.populate(discountDTO, discountData);
+				discountList.add(discountData);
+			}
+		}
+		return discountList;
+	}
+
+	@Override
+	public void calculate(CartData cartData) {
+		List<DiscountData> list = getApplicableDiscounts(cartData);
+		cartData.setDiscountList(list);
+		applyDiscounts(cartData);
+	}
+	
+	private void applyDiscounts(CartData cartData) {
+		if(null != cartData.getDiscountList() && cartData.getDiscountList().size() > 0)
+		{
+			double totalAmountAfterDiscount = 0.0;
+		    double totalDiscountAmount = 0.0;
+			for (DiscountData discount : cartData.getDiscountList()) {
+				totalDiscountAmount += totalDiscountAmount + discount.getAmountAfterDiscount();
+			}
+			
+			totalAmountAfterDiscount = cartData.getTotalAmount() - totalDiscountAmount;
+			
+			cartData.setTotalDiscountAmount(totalDiscountAmount);
+			cartData.setAmountAfterDiscount(totalAmountAfterDiscount);
+		}	
+	}
+
+	public BillingService getBillingService() {
+		return new BillingServiceImpl(); // just for demo, with Spring this will be autowired to bean instance
+	}
+
+	public void setBillingService(BillingService billingService) {
+		this.billingService = new BillingServiceImpl(); // just for demo, with Spring this will be autowired to bean instance
+	}
+
+	public AbstractPopulator getDiscountPopulator() {
+		return discountPopulator = new CommonDiscountPopulator<>();
+	}
+
+	public void setDiscountPopulator(AbstractPopulator discountPopulator) {
+		this.discountPopulator = new CommonDiscountPopulator<>();
+	}
+}

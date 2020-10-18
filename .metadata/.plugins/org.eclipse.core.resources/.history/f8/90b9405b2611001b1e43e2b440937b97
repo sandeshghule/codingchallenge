@@ -1,0 +1,8 @@
+package com.store.sincro.facade.billing;
+
+import com.store.sincro.data.CartData;
+
+public interface CustomerBillingFacade {
+	public double customerBill(CartData);
+}
+	

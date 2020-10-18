@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CustomerBillingControllerTest" project="retailstore" tests="14" started="14" failures="0" errors="0" ignored="0">
+  <testsuite name="com.store.sincro.tests.CustomerBillingControllerTest" time="0.003">
+    <testcase name="test10" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.001"/>
+    <testcase name="test11" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test12" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test13" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test14" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test1" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.001"/>
+    <testcase name="test2" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test3" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test4" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test5" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test6" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test7" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+    <testcase name="test8" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.001"/>
+    <testcase name="test9" classname="com.store.sincro.tests.CustomerBillingControllerTest" time="0.0"/>
+  </testsuite>
+</testrun>

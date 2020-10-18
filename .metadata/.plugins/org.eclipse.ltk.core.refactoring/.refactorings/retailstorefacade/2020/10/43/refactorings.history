@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;retailstorefacade/src/com/store/sincro/facade/customer&apos; to &apos;billing&apos;" description="Rename resource &apos;customer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/store/sincro/facade/customer" name="billing" stamp="1603006977611" updateReferences="true"/>
+</session>

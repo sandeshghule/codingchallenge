@@ -1,0 +1,10 @@
+package com.store.sincro;
+
+public interface StoreConstants 
+{
+	interface Messages
+	{
+		public static final String CUSTOMER_ID_MSG = "Please enter customer id=";
+		public static final String CUSTOMER_BILLING_AMOUNT_MSG = "Please enter Billing Amount=";
+	}
+}

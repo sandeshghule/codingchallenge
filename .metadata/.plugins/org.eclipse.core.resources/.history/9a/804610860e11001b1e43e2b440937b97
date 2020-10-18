@@ -1,0 +1,24 @@
+/**
+*  Sincro Platform
+*
+* Copyright (c) 2020-2021 Sincro
+* All rights reserved.
+* 
+**/
+package com.store.sincro.controller;
+
+
+/* Controller class for Billing
+* The billing Controller implements an application that
+* simply calculates the customers shopping cart bill and prints  
+* the output on the screen.
+* 
+* @author  Sandesh Ghule
+* @version 1.0
+* @since   2020-18-10
+*/
+public class CustomerBillingController {
+
+	
+	
+}

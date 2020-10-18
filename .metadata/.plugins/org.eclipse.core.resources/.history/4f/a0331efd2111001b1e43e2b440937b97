@@ -1,0 +1,6 @@
+package com.store.sincro.data;
+
+public class DiscountData {
+	private double amount;
+	private double discountPercentage;
+}

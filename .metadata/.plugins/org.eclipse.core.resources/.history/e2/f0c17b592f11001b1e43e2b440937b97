@@ -1,0 +1,13 @@
+package com.store.sincro.populator.impl;
+
+import com.store.sincro.populator.AbstractPopulator;
+
+public class CommonDiscountPopulator extends AbstractPopulator {
+
+	@Override
+	public void populate(Object source, Object target) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

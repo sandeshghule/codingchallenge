@@ -1,0 +1,26 @@
+package com.store.sincro.facade.billing.impl;
+
+import com.store.sincro.data.CartData;
+import com.store.sincro.facade.billing.CustomerBillingFacade;
+import com.store.sincro.service.billing.BillingService;
+import com.store.sincro.service.billing.impl.BillingServiceImpl;
+
+public class CustomerBillingFacadeImpl implements CustomerBillingFacade {
+
+	private BillingService billingService;
+	
+	private DiscountStrategy discountStrategy;
+	
+	@Override
+	public double customerBill(final CartData cartData) {
+		
+	}
+
+	public BillingService getBillingService() {
+		return new BillingServiceImpl(); // just for demo, with Spring this will be autowired to bean instance
+	}
+
+	public void setBillingService(BillingService billingService) {
+		this.billingService = new BillingServiceImpl(); // just for demo, with Spring this will be autowired to bean instance
+	}
+}

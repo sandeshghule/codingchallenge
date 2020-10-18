@@ -1,0 +1,19 @@
+package com.store.sincro.tests;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.store.sincro.controller.CustomerBillingController;
+
+class CustomerBillingControllerTest {
+
+	CustomerBillingController customerBillingController = new CustomerBillingController();
+	
+	@Test
+	void test() {
+		
+		
+	}
+
+}

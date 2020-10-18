@@ -1,0 +1,31 @@
+package com.store.sincro.tests;
+
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import com.store.sincro.controller.CustomerBillingController;
+
+@Test
+class CustomerBillingControllerTest {
+
+	CustomerBillingController customerBillingController = new CustomerBillingController();
+	
+	@BeforeClass		
+    public static void m1() {							
+        System.out.println("Using @BeforeClass , executed before all test cases ");					
+    }		
+
+    @Before		
+    public void m2() {					
+        list = new ArrayList<String>();					
+        System.out.println("Using @Before annotations ,executed before each test cases ");					
+    }	
+    
+	@Test
+	void test1() throws Exception {
+		double cartTotal = customerBillingController.calculateCartTotal("REGULAR", 5000D);
+		Assert.assertSame(5000D, 5000D);
+	}
+
+}

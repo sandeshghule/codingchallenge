@@ -1,0 +1,22 @@
+package com.store.sincro.facade.billing.impl;
+
+import com.store.sincro.facade.billing.CustomerBillingFacade;
+import com.store.sincro.service.billing.BillingService;
+
+public class CustomerBillingFacadeImpl implements CustomerBillingFacade {
+
+	private BillingService billingService;
+	
+	@Override
+	public void customerBill(String type, Double amount) {
+	
+	}
+
+	public BillingService getBillingService() {
+		return billingService;
+	}
+
+	public void setBillingService(BillingService billingService) {
+		this.billingService = billingService;
+	}
+}
